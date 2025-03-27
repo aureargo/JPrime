@@ -1,0 +1,25 @@
+# Fichiers systeme
+.DS_Store
+Thumbs.db
+
+# Fichiers specifiques a l'OS
+*.swp
+*.swo
+*.bak
+
+#Fichiers generes par NetBeans
+nbproject/private/
+nbproject/build-impl.xml
+
+# Fichiers generes par IntelliJ IDEA
+.idea/
+*.iml
+out/
+
+# Fichiers de build
+/build/
+dist/
+*.class
+
+# Fichiers de logs
+*.log
