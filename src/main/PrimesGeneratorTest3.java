@@ -5,7 +5,7 @@ import jprime.multithread.PrimesGeneratorTabMod30030MultiThread;
 
 public class PrimesGeneratorTest3 {
     public static void main(String[] args) {
-        final long n = 10_0_000L;
+        final long n = 100_000L;
         long start;
         long end;
 

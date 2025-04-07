@@ -16,6 +16,9 @@ nbproject/build-impl.xml
 *.iml
 out/
 
+# Fichiers generes par Visual Studio Code
+.vscode/
+
 # Fichiers de build
 /build/
 dist/
@@ -23,3 +26,5 @@ dist/
 
 # Fichiers de logs
 *.log
+
+lib/

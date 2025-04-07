@@ -11,7 +11,7 @@ public class PrimesGeneratorRun
 
     public static void main(String[] args)
     {
-        final long nMax = 64_000_000_000L;
+        final long nMax = 1_000_000_000L;
 
         long start = System.currentTimeMillis();
         long[] tab = PrimesGeneratorTabMod30030.generateTab(nMax);
@@ -20,7 +20,6 @@ public class PrimesGeneratorRun
 
         System.out.println(nbPrimes);
         System.out.println("time : " + (end - start) + " ms");
-        Math.pow(5,2);
     }
 
 }

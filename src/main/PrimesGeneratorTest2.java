@@ -1,6 +1,7 @@
 package main;
 
 import jprime.PrimesGeneratorTabMod30030;
+import jprime.PrimesGeneratorTabMod30030_old;
 
 public class PrimesGeneratorTest2 {
     public static void main(String[] args) {
@@ -9,8 +10,8 @@ public class PrimesGeneratorTest2 {
         long end;
 
         start = System.currentTimeMillis();
-        long[] tab = PrimesGeneratorTabMod30030.generateTab(n);
-        long nbPrimes = PrimesGeneratorTabMod30030.countPrimes(tab, n);
+        long[] tab = PrimesGeneratorTabMod30030_old.generateTab(n);
+        long nbPrimes = PrimesGeneratorTabMod30030_old.countPrimes(tab, n);
         System.out.println(nbPrimes);
         end = System.currentTimeMillis();
         System.out.println("time : " + (end - start) + " ms");

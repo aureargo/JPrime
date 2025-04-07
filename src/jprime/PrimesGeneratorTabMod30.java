@@ -40,7 +40,7 @@ public class PrimesGeneratorTabMod30 {
     //Integer.MAX_VALUE: 7141 ms    //105097565
     //10_000_000_000L    37631 ms    //455052511
     //32_000_000_000L    141249 ms   //1_382_799_415
-    //64_000_000_000L     ms   //2_685_000_601
+    //64_000_000_000L    290074 ms   //2_685_000_601
 
     /**
      * @param nMax [0..64_000_000_000L]
@@ -409,7 +409,8 @@ public class PrimesGeneratorTabMod30 {
             }
         }
 
-        return nbPrimes & 0xFFFF_FFFF;
+        return nbPrimes & 0xFFFF_FFFFL;
+        //without cast to long, can be negative (if > Integer.MAX_VALUE)
     }
 
     public static ArrayList<Long> getListPrimes(final byte[] tab, final long nMax) {
