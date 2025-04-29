@@ -1,7 +1,3 @@
-/*
- * Copyright (C) août 2020
- * Thales LAS France SAS - all rights reserved
- */
 package jprime.simple;
 
 import java.math.BigInteger;

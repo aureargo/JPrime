@@ -1,7 +1,3 @@
-/*
- * Copyright (C) janvier 2024
- * Thales LAS France SAS - all rights reserved
- */
 package jprime;
 
 import java.util.ArrayList;
